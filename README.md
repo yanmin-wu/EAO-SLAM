@@ -1,6 +1,6 @@
-# MP-SLAM
+# EAO-SLAM
 
-The code will be available after my paper is accepted.
+The code will be available after the paper is accepted.
 
 ---
 > wuyanminmax@gmail.com
