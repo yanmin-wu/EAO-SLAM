@@ -1,0 +1,23 @@
+/**************************************************************************************************************
+ * Disclaimer for EDLines Library
+ * 
+ * This software library is provided "as is" and "with all faults." Authors of this library make 
+ * no warranties of any kind concerning the safety, suitability, lack of viruses, inaccuracies, 
+ * typographical errors, or other harmful components of this software product. There are inherent 
+ * dangers in the use of any software, and you are solely responsible for determining whether this 
+ * software product is compatible with your equipment and other software installed on your equipment. 
+ * You are also solely responsible for the protection of your equipment and backup of your data, 
+ * and the authors of this software product will not be liable for any damages you may suffer in 
+ * connection with using, modifying, or distributing this software product. 
+ *
+ * You are allowed to use this library for scientific research only. 
+ *
+ * By using this library you are implicitly assumed to have accepted all of the above statements, 
+ * and accept to cite the following papers:
+ *
+ * [1] C. Akinlar and C. Topal, "EDLines: A Real-time Line Segment Detector with a False Detection Control," 
+ *     Pattern Recognition Letters, 32(13), 1633-1642, DOI: 10.1016/j.patrec.2011.06.001 (2011).
+ *
+ * [2] C. Akinlar and C. Topal, "EDLines: Realtime Line Segment Detection by Edge Drawing (ED),"
+ *     IEEE Int’l Conf. on Image Processing (ICIP), Sep. 2011.
+ **************************************************************************************************************/

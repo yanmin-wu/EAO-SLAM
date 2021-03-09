@@ -1,0 +1,71 @@
+CMakeLists.txt.user
+Examples/Monocular/mono_euroc
+Examples/Monocular/mono_kitti
+Examples/Monocular/mono_tum
+Examples/RGB-D/rgbd_tum
+Examples/ROS/ORB_SLAM2/CMakeLists.txt.user
+Examples/ROS/ORB_SLAM2/Mono
+Examples/ROS/ORB_SLAM2/MonoAR
+Examples/ROS/ORB_SLAM2/RGBD
+Examples/ROS/ORB_SLAM2/Stereo
+Examples/ROS/ORB_SLAM2/build/
+Examples/Stereo/stereo_euroc
+Examples/Stereo/stereo_kitti
+KeyFrameTrajectory.txt
+Thirdparty/DBoW2/build/
+Thirdparty/DBoW2/lib/
+Thirdparty/g2o/build/
+# Thirdparty/g2o/config.h
+Thirdparty/g2o/lib/
+Thirdparty/Line3Dpp/build/
+#Vocabulary/ORBvoc.txt
+#Vocabulary/ORBvoc.bin
+#Vocabulary/ORBvoc.txt.tar.gz
+build/
+lib/
+results_line_segments/
+tools/bin_vocabulary
+OutputObj/
+Thirdparty/Line3Dpp/libs/precompiled/ceres/lib64/vc10/ceres.lib
+data_associate.txt
+result_associate/
+./vscode/
+sample/
+data/yolo_txts/
+cubeslam_results/*.png
+box/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Executables
+*.exe
+*.out
+*.app
+
+*~
+
+# CLion
+.idea/
+
+# VScode
+#*/.vscode/

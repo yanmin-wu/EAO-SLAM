@@ -1,0 +1,19 @@
+These are scripts used to calculate the average distance of vertices to ground truth.
+
+First please convert all .obj files to .ply in order to use these scripts. ply files can be correctly read by MATLAB. Meshlab can be used to convert .obj files to .ply files. 
+
+Ground truth point cloud file data.ply can be found in PATH_TO_SEQUENCE/mav0/pointcloud0 for sequences from EuRoC MAV dataset. Please put your results and ground truth point cloud into the same directory (e.g. result_euroc_v201/) to use these scripts.
+
+Run downsample.m, register.m, and evaluate.m in order. Please change the directory names and file names in the scripts to process your results.
+
+downsample.m: down sample ground truth point cloud and semi-dense point cloud to reduce processing time.
+
+register.m: compute the correct transform and scale change between ground truth point cloud and semi-dense point cloud.The result is saved in file tforms.mat. ICP is used to estimate the euclidean transform. Scale is estimated by minimizing the distance after running ICP. 
+Note: initial scale and initial transform are critical to correctly estimating the transform. They may need to be changed when running on different data. If you change the initial transform, please also change the initial transform in file scaling.m.
+Note: please inspect visually that semi_test.ply has the correct transform, i.e., it has large overlap with the ground truth point cloud.
+
+evaluate.m: use the estimated transform to evaluate the result of other files. Results are printed on screen. 
+
+
+
+
